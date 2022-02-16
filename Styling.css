@@ -1,14 +1,76 @@
-li {
-    float: left;
-    width: 16.6%;
-}
-
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     width: 100%;
+}
+
+body {
+    margin: 0%;
+    background-color: rgb(194, 220, 177);
+}
+
+.navbar {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 204);
+}
+
+.navbar .icon {
+    display: none;
+}
+
+@media screen and (max-width: 750px) {
+    .navbar li:not(:first-child) {
+        display: none;
+    }
+
+    .navbar li.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .navbar.responsive {
+        position: relative;
+    }
+
+    .navbar.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar.responsive li {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+}
+
+.menu {
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 204);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sheet {
+    width: 80%;
+    background-color: rgb(255, 255, 204);
+    height: 100%;
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+li {
+    float: left;
+    width: 16.6%;
 }
 
 li a {
@@ -21,34 +83,39 @@ li a {
     height: 100%;
 }
 
-.navbar {
+.content {
+    padding-top: 20px;
     margin: auto;
-    width: 80%;
-    height: 100%;
-    background-color: rgb(255, 255, 204);
+    width: 30%;
+    padding-bottom: 20px;
 }
 
-.menu {
-    margin: auto;
-    width: 100%;
-    height: 50px;
-    background-color: rgb(255, 255, 204);
+.overunder {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(127, 145, 152);
+    font-family: Felix Titling;
+}
+
+.groomandbride {
+    text-align: center;
+    font-size: large;
+    font-family: Felix Titling;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
 }
 
-body {
-    margin: 0%;
-    background-color: rgb(194, 220, 177);
+.active {
+    border-bottom: medium solid rgba(0, 0, 0, 0.507);
 }
 
 li a:hover {
     background-color: white;
-}
-
-.sheet {
-    width: 80%;
-    background-color: rgb(255, 255, 204);
-    margin: auto;
-    margin-top: 100px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
