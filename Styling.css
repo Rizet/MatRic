@@ -27,7 +27,7 @@ body {
         display: none;
     }
 
-    .navbar li.icon {
+    .navbar .icon {
         float: right;
         display: block;
     }
