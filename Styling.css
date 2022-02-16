@@ -1,0 +1,54 @@
+li {
+    float: left;
+    width: 16.6%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Felix Titling;
+    height: 100%;
+}
+
+.navbar {
+    margin: auto;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(255, 255, 204);
+}
+
+.menu {
+    margin: auto;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(255, 255, 204);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body {
+    margin: 0%;
+    background-color: rgb(194, 220, 177);
+}
+
+li a:hover {
+    background-color: white;
+}
+
+.sheet {
+    width: 80%;
+    background-color: rgb(255, 255, 204);
+    margin: auto;
+    margin-top: 100px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
