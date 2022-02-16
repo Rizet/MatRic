@@ -11,21 +11,35 @@
 
 <body>
     <div class="menu">
-        <div class="navbar">
+        <div class="navbar" id="myNavbar">
             <ul>
-                <li><a href="#">Welcome</a></li>
-                <li class="active"><a href="#">About us</a></li>
+                <li class="active"><a href="#">Welcome</a></li>
+                <li><a href="#">About us</a></li>
                 <li><a href="#">The wedding</a></li>
                 <li><a href="#">Bridal party</a></li>
                 <li><a href="#">Wishlist</a></li>
                 <li><a href="#">R.S.V.P</a></li>
+                <li><a href="javascript:void(0);" style="font-size:15px;" class="icon"
+                        onclick="myFunction()">&#9776;</a></li>
             </ul>
         </div>
     </div>
     <div class = "sheet">
 
     </div>
+    
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myNavbar");
+            if (x.className === "navbar") {
+                x.className += " responsive";
+            }
 
+            else {
+                x.className = "navbar";
+            }
+        }
+    </script>
 </body>
 
 </html>
