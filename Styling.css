@@ -26,14 +26,14 @@ body {
     .navbar li:not(:first-child) {
         display: none;
     }
+    li:first-child{
+        width: 90%;
+    }
 
     .navbar .icon {
         float: right;
         display: block;
     }
-}
-
-@media screen and (max-width: 750px) {
     .navbar.responsive {
         position: relative;
     }
@@ -50,6 +50,9 @@ body {
         text-align: left;
     }
 }
+
+
+
 
 .menu {
     margin: auto;
