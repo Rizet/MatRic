@@ -6,14 +6,30 @@ ul {
     width: 100%;
 }
 
+
 @font-face {
     font-family: Felix Titling;
     src: url(FELIXTI.TTF);
+}
+@font-face {
+    font-family: Alex Brush;
+    src: url(AlexBrush-Regular.ttf);
 }
 
 body {
     margin: 0%;
     background-color: rgb(194, 220, 177);
+}
+
+p{
+    text-align: center;
+    font-size: large;
+}
+
+.gifts{
+    font-family: Alex Brush;
+    font-size: 80px;
+    margin: 5px;
 }
 
 .navbar {
@@ -120,7 +136,11 @@ iframe{
     font-size: large;
     font-family: Felix Titling;
 }
-
+.flower{
+    box-shadow: none;
+    margin-left: auto;
+    margin-right: auto;
+}
 img {
     display: block;
     margin-left: auto;
@@ -128,6 +148,11 @@ img {
     width: 45%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
     margin-bottom: 20px;
+}
+
+.timeline{
+    margin-top: 100px;
+    width: 70%;
 }
 
 .active {
