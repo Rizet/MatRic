@@ -33,7 +33,7 @@ body {
     }
 
     li:first-child{
-        width: 90%;
+        width: 80%;
     }
 
     li:last-child{
@@ -61,7 +61,7 @@ body {
         float: none;
         display: block;
         text-align: left;
-        width: 90%;
+        width: 80%;
         background-color: rgb(255, 255, 204);
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
@@ -112,7 +112,9 @@ li a {
     color: rgb(127, 145, 152);
     font-family: Felix Titling;
 }
-
+iframe{
+    width: 100%;
+}
 .groomandbride {
     text-align: center;
     font-size: large;
