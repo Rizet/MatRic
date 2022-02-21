@@ -23,19 +23,28 @@ body {
 }
 
 @media screen and (max-width: 750px) {
-    .navbar li:not(:first-child) {
+    .navbar li:not(:first-child, :last-child) {
         display: none;
     }
+
     li:first-child{
         width: 90%;
     }
 
-    .navbar li.icon {
+    li:last-child{
+        height: 50px;
+        float: right;
+        width: 10%;
+    }
+
+    .navbar .icon {
         float: right;
         display: block;
+        height: 50px;
     }
     .navbar.responsive {
         position: relative;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .navbar.responsive .icon {
@@ -48,6 +57,9 @@ body {
         float: none;
         display: block;
         text-align: left;
+        width: 90%;
+        background-color: rgb(255, 255, 204);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 }
 
