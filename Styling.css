@@ -167,6 +167,17 @@ img {
     width: 80%;
 }
 
+.details1{
+    margin-top: 100px;
+    width: 80%;
+    margin-bottom: 0%;
+}
+
+.details2{
+    margin-top: auto;
+    width: 80%;
+}
+
 .active {
     border-bottom: medium solid rgba(0, 0, 0, 0.507);
 }
