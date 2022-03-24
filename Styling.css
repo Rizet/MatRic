@@ -90,6 +90,11 @@ p{
         width: 80%;
     }
 
+    .timeline{
+        margin-top: 100px;
+        width: 80%;
+    }
+
 }
 
 .menu {
@@ -183,23 +188,19 @@ img {
 
 .timeline{
     margin-top: 100px;
-    width: 80%;
+    width: 65%;
 }
 
-#firstPage{
-    margin-top: 100px;
-    width: 60%;
-}
 
 .details1{
     margin-top: 100px;
-    width: 80%;
+    width: 65%;
     margin-bottom: 0%;
 }
 
 .details2{
     margin-top: auto;
-    width: 80%;
+    width: 65%;
 }
 
 .active {
