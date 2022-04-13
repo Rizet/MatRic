@@ -206,3 +206,8 @@ img {
 li a:hover {
     background-color: white;
 }
+
+.countDownTimer{
+    font-size: 40px;
+    font-family: Alex Brush;
+}
