@@ -9,16 +9,17 @@ ul {
 
 @font-face {
     font-family: Felix Titling;
-    src: url(FELIXTI.TTF);
+    src: url(../FontsFELIXTI.TTF);
 }
 @font-face {
     font-family: Alex Brush;
-    src: url(AlexBrush-Regular.ttf);
+    src: url(../Fonts/AlexBrush-Regular.ttf);
 }
 
 @font-face {
     font-family: Blackmore;
-    src: url(Blackmore.ttf);
+    src: url(../Fonts/Blackmore.ttf);
+    src: url(../Fonts);
 }
 
 body {
